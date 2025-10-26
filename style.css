@@ -681,3 +681,59 @@ button.submit:hover {
   transform: translateY(0);
 }
 
+
+@media (max-width: 768px) {
+  #navbar-top {
+    padding: 10px 20px;
+  }
+
+  .navbar-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar-nav li a {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+  }
+
+  .hero {
+    height: 80vh;
+  }
+
+  .hero-overlay h1 {
+    font-size: 36px;
+  }
+
+  .hero-overlay p {
+    font-size: 18px;
+  }
+
+  .services-section {
+    padding: 50px 20px;
+  }
+
+  .services-section .heading h2 {
+    font-size: 40px;
+  }
+
+  #about .heading h2 {
+    font-size: 36px;
+  }
+
+  #contact .heading h2 {
+    font-size: 36px;
+  }
+
+  #footer h1 {
+    font-size: 30px;
+  }
+}
