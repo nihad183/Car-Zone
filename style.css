@@ -684,13 +684,13 @@ button.submit:hover {
 
 @media (max-width: 768px) {
   #navbar-top {
-    padding: 10px 20px;
+    padding: 5px 10px;
   }
 
   .navbar-container {
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
+    gap: 7px;
   }
 
   .navbar-nav {
@@ -737,3 +737,4 @@ button.submit:hover {
     font-size: 30px;
   }
 }
+
