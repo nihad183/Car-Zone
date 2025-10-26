@@ -27,7 +27,7 @@ body {
     display: flex;
     justify-content: flex-start; /* كل شيء يبدأ من اليسار */
     align-items: center;
-    gap: 600px; /* مسافة بين الشعار والقائمة */
+    gap: 20px; /* مسافة بين الشعار والقائمة */
 }
 
 
@@ -680,3 +680,4 @@ button.submit:hover {
   opacity: 1;
   transform: translateY(0);
 }
+
